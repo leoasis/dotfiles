@@ -1,6 +1,9 @@
 [user]
 	name = Leonardo Andres Garcia Crespo
 	email = leoasis@gmail.com
+[github]
+	user = leoasis
+	token = <THE_TOKEN>
 [core]
 	editor = subl -w
 [alias]
@@ -11,3 +14,5 @@
   lol = log --graph --decorate --pretty=oneline --abbrev-comm
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+  ui=true
